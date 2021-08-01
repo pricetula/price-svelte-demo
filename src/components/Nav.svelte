@@ -12,5 +12,6 @@ import { component_subscribe } from "svelte/internal";
 
   .nav {
     background-color: $midnight-blue;
+    min-height: pxToRem(50px);
   }
 </style>
