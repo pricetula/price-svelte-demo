@@ -1,0 +1,21 @@
+:global {
+  @import "./partial/index.scss",
+    "node_modules/bulma/sass/utilities/_all",
+    "node_modules/bulma/sass/base/_all",
+    "node_modules/bulma/sass/elements/_all",
+    "node_modules/bulma/sass/form/_all",
+    "node_modules/bulma/sass/components/_all",
+    "node_modules/bulma/sass/grid/_all",
+    "node_modules/bulma/sass/helpers/_all",
+    "node_modules/bulma/sass/layout/_all";
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
