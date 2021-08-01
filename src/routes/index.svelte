@@ -24,7 +24,7 @@
 </script>
 
 <main>
-  <h1>Price svelte demo</h1>
+  <h1 class="title">Price svelte demo</h1>
   <p>Checkout <a href={route.CHARTS.path}>charts</a> page.</p>
   <Button click={clickedHandler}>Button clicked {buttonClicked} times</Button>
   <ul>

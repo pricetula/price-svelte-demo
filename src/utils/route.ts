@@ -1,8 +1,10 @@
 export const route = {
   HOME: {
-    path: '/'
+    path: '/',
+    label: 'Home',
   },
   CHARTS: {
-    path: '/charts'
+    path: '/charts',
+    label: 'Charts',
   }
 }
