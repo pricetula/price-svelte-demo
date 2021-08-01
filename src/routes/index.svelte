@@ -17,7 +17,7 @@
           firstName: name.firstName(),
           lastName: name.lastName(),
         }));
-console.log('Mounted')
+
   $: {
     console.log(`Will always log when "buttonClicked" reactive statement changes. buttonClicked = ${buttonClicked}`)
   }
