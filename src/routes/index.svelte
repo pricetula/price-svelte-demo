@@ -23,9 +23,11 @@
   }
 </script>
 
-<main>
-  <h1 class="title">Price svelte demo</h1>
-  <p>Checkout <a href={route.CHARTS.path}>charts</a> page.</p>
+<article>
+  <header class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center header">
+    <h1 class="title is-1 has-text-primary">Bulma & svelte</h1>
+    <h2 class="title is-4">Simple web app built using Svelte and Bulma CSS</h2>
+  </header>
   <Button click={clickedHandler}>Button clicked {buttonClicked} times</Button>
   <ul>
     <!-- Iterate over list, each item is set to user variable and the key to be used is user.id -->
@@ -35,4 +37,15 @@
       <li>No list available</li>
     {/each}
   </ul>
-</main>
+</article>
+
+<style lang="scss">
+   @import "src/style/partial/index.scss";
+
+  .header {
+    padding: pxToRem(30px) pxToRem(40px) pxToRem(20px);
+    & > h1 {
+      text-align: center;
+    }
+  }
+</style>
