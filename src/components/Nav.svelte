@@ -24,8 +24,13 @@
   @import "src/style/partial/index.scss";
 
   .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
     background-color: $midnight-blue;
-    min-height: pxToRem(50px);
+    min-height: $nav-height;
     padding: 0 pxToRem(50px);
 
     & > .logo {
